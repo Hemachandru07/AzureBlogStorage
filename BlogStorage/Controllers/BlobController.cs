@@ -6,7 +6,7 @@ using Microsoft.WindowsAzure.Storage;
 namespace BlogStorage.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController]//
     public class BlobController : ControllerBase
     {
         private readonly IConfiguration _configuration;
